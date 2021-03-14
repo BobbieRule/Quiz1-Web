@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Moonglade;
+  src: url("../Fonts/MoongladeDemoBold.ttf");
+}
+
+body {
+  background-image: url("../images/headerImg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div {
+  overflow: hidden;
+}
+
+#logo {
+  width: 3em;
+  cursor: pointer;
+}
+
+#my-container {
+  background-color: grey;
+  margin: 2em;
+}
+
+.my-row {
+  padding: 2em;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.content-area {
+  width: 100%;
+  text-align: center;
+}
+
+.content-area h2 {
+  padding-top: 1em;
+  font-family: Moonglade;
+  font-weight: bolder;
+}
+
+.content-area p {
+  font-size: 1.2em;
+  font-family: Moonglade;
+}
+
+a {
+  font-family: Moonglade;
+}
